@@ -18,6 +18,7 @@
 #define WKS(weakSelf)     __weak typeof(self)weakSelf = self;
 
 
+
 /**视频播放的状态**/
 typedef NS_ENUM(NSInteger,GZXPlayerState) {
     GZXPlayerStateNomer = 0,
